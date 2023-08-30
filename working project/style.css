@@ -1,0 +1,70 @@
+body {
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+font-family: Arial, sans-serif;
+border: none;
+margin: none;
+padding: none;
+display: flex;
+flex-direction: column;
+row-gap: 25px;
+align-items: center;
+}
+
+
+h1 {
+text-align: center;
+}
+
+#symptomForm {
+margin: 20px;
+height: auto;
+display: flex;
+flex-direction: column;
+row-gap: 20px;
+}
+
+h2 {
+text-align: center;
+}
+
+#diagnosisResult {
+margin: 20px;
+}
+
+#cure {
+margin: 10px;
+}
+
+#symptom{
+    font-size: large;
+}
+
+button {
+padding: 10px 20px;
+font-size: 18px;
+border: none;
+background-color: greenyellow;
+}
+
+textarea.form-control {
+height: auto;
+resize: vertical;
+}
+
+.btn-primary {
+background-color: #007bff;
+border-color: #007bff;
+}
+
+.btn-primary:hover {
+background-color: #0069d9;
+border-color: #0062cc;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
